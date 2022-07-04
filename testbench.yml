@@ -1,0 +1,10 @@
+env:
+  - DB_CONNECTION="mysql"
+  - DB_HOST="localserver"
+  - DB_PORT="3306"
+  - DB_DATABASE="laranotes"
+  - DB_USERNAME="homestead"
+  - DB_PASSWORD="secret"
+
+providers:
+  - Laravel\Passport\PassportServiceProvider
